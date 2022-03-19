@@ -35,4 +35,5 @@ jobs:
         df -h
         which wget
         which curl
+        echo Post to IFTTT
         curl -X POST -H "Content-Type: application/json" -d '{"value1":"Hello, a commit was made to ghactions-test!","value2":"","value3":""}' https://maker.ifttt.com/trigger/commits/with/key/${{ secrets.IFTTT_KEY }}
