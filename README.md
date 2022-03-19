@@ -5,3 +5,7 @@ A repository that sends a notification to telegram channel - Nusfintech RPA when
 ## How to 
 
 ### Step 1:
+Fork repository.
+
+### Step 2:
+Sign up and login to [IFFFT](https://ifttt.com).
