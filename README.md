@@ -34,14 +34,25 @@ You may follow instructions from IFTTT bot or refer to above link to see how to 
 Go your applet in IFTTT and edit settings.
 Change the target chat to the channel/group that you have created above.
 
-### Step 4：
+### Step 5：
 Go to [IFTTT Webhooks page]https://ifttt.com/maker_webhooks） and click on documentation to get your KEY.
 
-Edit your code in line  test1.yml.
+Edit your code in line 39 of ghactions-test/.github/workflows/test1.yml.
+On line 39, you may edit the values/messages to send specific messages to telegram.
 
 Option 1:
-- 
+- replace "${{ secrets.IFTTT_KEY }}" with your key
+
+Option 2:
+- In your repo, go to settings tab.
+- Under Secrets>Actions, create a "New repository secret".
+- Key in "IFTTT_KEY" as Name and your key as Value.
+
+### Step 6:
+Make commits and see notifications on your telegram channel/group!
 
 ## Notes
 1. Channels/groups may take a few minutes to appear in IFTTT applets.
 2. Webhook urls are case sensitive. Make sure to input the right event and key.
+3. In your repo, go to Actions tab to see/monitor workflow
+4. Use postman to check post request to IFTTT
