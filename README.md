@@ -9,6 +9,7 @@ Fork repository.
 
 ### Step 2:
 Sign up and login to [IFFFT](https://ifttt.com).
+![](/assets/images/IFTTT_Login.png)
 
 Create an applet by clicking "Create" button on the top right.
 
