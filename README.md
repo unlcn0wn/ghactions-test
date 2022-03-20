@@ -25,7 +25,7 @@ For "Then That" -> Add Telegram - Send message
 ### Step 3：
 With telegram connected, you should have the IFTTT bot - @IFTTT in your telegram. 
 
-Create a channel/group and add IFTTT bot as administrator [link](https://help.ifttt.com/hc/en-us/articles/360003121113-How-to-get-started-using-IFTTT-with-Telegram)
+Create a channel/group and add IFTTT bot as administrator. [-Guide-](https://help.ifttt.com/hc/en-us/articles/360003121113-How-to-get-started-using-IFTTT-with-Telegram)
 
 Proceed to connect channel/group to IFTTT.
 You may follow instructions from IFTTT bot or refer to above link to see how to connect channel/group.
