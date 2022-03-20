@@ -31,6 +31,17 @@ Proceed to connect channel/group to IFTTT.
 You may follow instructions from IFTTT bot or refer to above link to see how to connect channel/group.
 
 ### Step 4：
+Go your applet in IFTTT and edit settings.
+Change the target chat to the channel/group that you have created above.
+
+### Step 4：
 Go to [IFTTT Webhooks page]https://ifttt.com/maker_webhooks） and click on documentation to get your KEY.
 
-2 options to 
+Edit your code in line  test1.yml.
+
+Option 1:
+- 
+
+## Notes
+1. Channels/groups may take a few minutes to appear in IFTTT applets.
+2. Webhook urls are case sensitive. Make sure to input the right event and key.
